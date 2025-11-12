@@ -18,9 +18,9 @@ public class TimeCalc {
 
         if (finalHours > 9 && finalminutes > 9) {System.out.println(finalHours + ":" + finalminutes);
             
-        } else if (finalHours < 9 && finalminutes > 9) {System.out.println("0" + finalHours + ":" + finalminutes);
+        } else if (finalHours <= 9 && finalminutes > 9) {System.out.println("0" + finalHours + ":" + finalminutes);
             
-        } else if (finalHours < 9 && finalminutes < 9) {System.out.println("0" + finalHours + ":" + "0" + finalminutes);
+        } else if (finalHours <= 9 && finalminutes <= 9) {System.out.println("0" + finalHours + ":" + "0" + finalminutes);
         
         } else System.out.println(finalHours + ":" + "0" + finalminutes);
         
